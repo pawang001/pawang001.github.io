@@ -24,9 +24,9 @@ export const projects = [
     title: 'Budget Buddy | Personal Finance Tracker',
     description:
       'A full-stack personal finance management app with a React.js frontend and Spring Boot backend. Supports JWT and OAuth 2.0 authentication, interactive charts, and real-time expense tracking.',
-    imageUrl: '/project.png',
+    imageUrl: '/budget-buddy.png',
     tags: ['React.js', 'Spring Boot', 'Spring Security', 'MySQL', 'JWT', 'OAuth 2.0'],
-    liveUrl: '#',
+    liveUrl: 'https://budget-buddy-gules-two.vercel.app/',
     repoUrl: 'https://github.com/pawang001/BudgetBuddyBackend',
   },
   {
@@ -64,13 +64,33 @@ export const projects = [
     title: 'Brain Stack | Dynamic Quiz Generator',
     description:
       'A backend-powered quiz generation system that supports CRUD operations and dynamic quiz creation based on user-selected categories and difficulty levels.',
-    imageUrl: '/project.png',
+    imageUrl: '/quiz.png',
     tags: ['Spring Boot', 'React', 'MySQL', 'REST API'],
     liveUrl: '#',
     repoUrl: 'https://github.com/pawang001/BrainStack-Backend',
   },
   {
     id: 8,
+    title: 'Smart Helmet | Accident Detection & Emergency Alert System',
+    description:
+      'An embedded IoT-based safety system designed to automatically detect motorcycle accidents and send emergency SMS alerts with real-time GPS location. Built to operate autonomously without smartphone dependency, ensuring rapid response even if the rider is unconscious. Implements motion-based crash detection with false-alarm prevention and helmet-wear validation.',
+    imageUrl: '/helmet.jpeg',
+    tags: [
+      'ESP32',
+      'IoT',
+      'Embedded Systems',
+      'MPU6050',
+      'GPS',
+      'GSM',
+      'Arduino',
+      'C++'
+    ],
+    liveUrl: '#',
+    repoUrl: 'https://github.com/pawang001/smart-helmet-accident-detection',
+  },
+
+  {
+    id: 9,
     title: 'Firefighting Robot | IoT & Robotics Project',
     description:
       'Winner of Project-a-thon 2024. An autonomous Arduino-powered robot capable of detecting and extinguishing fires using flame sensors and motor-controlled extinguishing arms.',
@@ -103,7 +123,7 @@ export const skills = [
   // Frontend
   { name: 'React.js', category: 'Frontend' },
   { name: 'Tailwind CSS', category: 'Frontend' },
-  
+
   // Database
   { name: 'PostgreSQL', category: 'Database' },
   { name: 'MySQL', category: 'Database' },
