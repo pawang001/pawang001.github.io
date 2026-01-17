@@ -14,7 +14,7 @@ export const projects = [
     title: 'Patient Management System | Microservices Architecture',
     description:
       'A distributed healthcare system built using Spring Boot microservices. Implements REST, gRPC, and Kafka-based communication, secured with JWT and API Gateway for seamless authentication and scalability.',
-    imageUrl: '/project.png',
+    imageUrl: '/patient.png',
     tags: ['Java', 'Spring Boot', 'Microservices', 'Docker', 'Kafka', 'PostgreSQL', 'JWT'],
     liveUrl: '#',
     repoUrl: 'https://github.com/pawang001/Patient-Management',
